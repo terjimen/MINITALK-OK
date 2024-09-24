@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: teresajimenezcabanas <teresajimenezcaba    +#+  +:+       +#+        */
+/*   By: terjimen <terjimen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/19 22:17:48 by terjimen          #+#    #+#             */
-/*   Updated: 2024/09/03 21:12:29 by teresajimen      ###   ########.fr       */
+/*   Updated: 2024/09/24 19:05:17 by terjimen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

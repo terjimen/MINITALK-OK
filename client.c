@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   client.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: teresajimenezcabanas <teresajimenezcaba    +#+  +:+       +#+        */
+/*   By: terjimen <terjimen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/26 22:07:55 by terjimen          #+#    #+#             */
-/*   Updated: 2024/09/24 18:13:23 by teresajimen      ###   ########.fr       */
+/*   Updated: 2024/09/24 19:21:12 by terjimen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include "minitalk.h"
 #include "libftprintf/include/libft.h"
 
 void	send_char(pid_t server_pid, char c)
@@ -27,7 +28,7 @@ void	send_char(pid_t server_pid, char c)
 			kill(server_pid, SIGUSR1);
 		else
 			kill(server_pid, SIGUSR2);
-		usleep(500);
+		usleep(200);
 		i++;
 	}
 }

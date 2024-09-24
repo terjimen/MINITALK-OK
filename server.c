@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   server.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: teresajimenezcabanas <teresajimenezcaba    +#+  +:+       +#+        */
+/*   By: terjimen <terjimen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/26 22:07:55 by terjimen          #+#    #+#             */
-/*   Updated: 2024/09/24 18:13:22 by teresajimen      ###   ########.fr       */
+/*   Updated: 2024/09/24 19:21:13 by terjimen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,8 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include "minitalk.h"
 #include "libftprintf/include/libft.h"
-
-typedef struct s_data{
-	char	*str;
-	int		len;
-}	t_data;
 
 t_data	g_data = {NULL, 0};
 

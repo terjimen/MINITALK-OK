@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: teresajimenezcabanas <teresajimenezcaba    +#+  +:+       +#+         #
+#    By: terjimen <terjimen@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/06/26 21:07:59 by terjimen          #+#    #+#              #
-#    Updated: 2024/09/09 19:26:36 by teresajimen      ###   ########.fr        #
+#    Updated: 2024/09/24 19:17:50 by terjimen         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
