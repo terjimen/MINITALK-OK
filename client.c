@@ -6,7 +6,7 @@
 /*   By: terjimen <terjimen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/26 22:07:55 by terjimen          #+#    #+#             */
-/*   Updated: 2024/09/24 19:28:32 by terjimen         ###   ########.fr       */
+/*   Updated: 2024/09/24 20:31:13 by terjimen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	send_char(pid_t server_pid, char c)
 			kill(server_pid, SIGUSR1);
 		else
 			kill(server_pid, SIGUSR2);
-		usleep(200);
+		usleep(100);
 		i++;
 	}
 }
